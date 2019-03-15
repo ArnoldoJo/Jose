@@ -1,0 +1,14 @@
+/*
+ * ¡¡HOLA MUNDO!!
+ */
+package CLASE_1_24_01_2019_GUI;
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author Arnoldo Poveda
+ */
+public class CLASE_1_24_01_2019_GUI {
+    public static void main(String args[]){
+        JOptionPane.showMessageDialog(null,"HOLA MUNDO", "BIENVENIDO", JOptionPane.PLAIN_MESSAGE);
+    }
+}
