@@ -1,0 +1,18 @@
+/*
+ * IMPRIMIR LOS NUMEROS MULTIPLOS DE 5
+ */
+package For_ejer1_14_02_2019_GUI;
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author CC3B
+ */
+public class For_ejer1_14_02_2019_GUI {
+   public static void main(String[]args){
+    
+       
+    for (int  i=0;i<=100;i=i+5)
+       //System.out.println(i); 
+    JOptionPane.showMessageDialog(null,"NUMERO: " +i, "MULTIPLO DE 5 HASTA 100", JOptionPane.PLAIN_MESSAGE);
+   } 
+}
