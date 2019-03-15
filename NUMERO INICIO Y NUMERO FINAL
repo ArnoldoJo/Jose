@@ -1,0 +1,32 @@
+
+import javax.swing.JOptionPane;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+public class For_ejerc3_14_02_2019_GUI {
+  public static void main(String[]args){
+    String e1;
+   String s1;
+   int e2;
+   int s2;
+  
+    
+   e1=JOptionPane.showInputDialog("ingrese un numero entrada");
+   s1=JOptionPane.showInputDialog("ingrese un numero salida");
+  
+   e2=Integer.parseInt(e1);
+   s2=Integer.parseInt(s1);
+    //System.out.println("ingrese un numero entrada"); 
+    //e = sc.nextInt();
+    //System.out.println("ingrese un numero salida"); 
+    //s = sc.nextInt();
+    
+    for (int i=e2;i<=s2;i=i+2)
+       JOptionPane.showMessageDialog(null,i); 
+     System.exit(0);
+   }     
+}
