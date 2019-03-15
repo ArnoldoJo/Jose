@@ -1,0 +1,17 @@
+/*
+ * ESTRUCTURAS FOR MANDE A IMPRINIR LOS MULTIPLOS DE 2 HASTA EL 50
+ */
+package For_14_02_2019_GUI;
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author CC3B
+ */
+public class For_14_02_2019_GUI {
+  public static void main(String[]args){
+      int mult=0;
+      for (int num=1;num<=25;num++)
+      JOptionPane.showMessageDialog(null,"NUMERO:  " +(num*2), "MULTIPLO DE 2 HASTA EL 50", JOptionPane.PLAIN_MESSAGE);//System.out.println(num*2);
+  System.exit(0);
+  }  
+}
